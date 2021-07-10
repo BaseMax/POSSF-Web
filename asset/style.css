@@ -952,3 +952,7 @@ section.profile .social svg {
 .faq-item.active .faq-content {
 	display: block;
 }
+
+.faq-item.active svg {
+	transform: rotate(180deg);
+}
