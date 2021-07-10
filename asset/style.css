@@ -250,6 +250,7 @@ section.updates p.follow-text {
 footer {
     text-align: center;
     background-image: url(../image/footer.png);
+    background-repeat: no-repeat;
     width: 100%;
     height: 500px;
     display: flex;
@@ -515,12 +516,13 @@ section.content p {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 75vh;
+    min-height: auto;
     background-image: url('../asset/pattern-light.svg');
     background-color: #040303;
     background-position: center;
     background-attachment: cover;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 .attends-box {
