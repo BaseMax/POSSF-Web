@@ -412,9 +412,27 @@ img {
     border: 0px;
 }
 
+.page-box-content {
+    width: 80%;
+    margin: auto;
+}
+
+.page-box-content-padding {
+
+}
+
+h1.page-box-content-title {
+    font-size: 45px;
+}
 
 @media (max-width: 600px) {
     header .time {
         display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .page-box-content {
+        width: 90%;
     }
 }
