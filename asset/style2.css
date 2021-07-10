@@ -428,6 +428,20 @@ h3.page-box-content-title {
 	font-size: 30px;
 }
 
+@media screen and (max-width:600px) {
+	h1.page-box-content-title {
+		font-size: 35px;
+	}
+
+	h2.page-box-content-title {
+		font-size: 27px;
+	}
+
+	h3.page-box-content-title {
+		font-size: 20px;
+	}
+}
+
 @media (max-width: 600px) {
 	header .time {
 		display: none;
