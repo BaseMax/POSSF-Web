@@ -510,7 +510,8 @@ section.content h1,
 
 section.content p {
 	margin: 0px auto 15px;
-	color: #B5BFD2;
+	/*color: #B5BFD2;*/
+	color: white;
 	font-size: 22px;
 	max-width: 70% !important;
 }
