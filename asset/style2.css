@@ -173,7 +173,8 @@ body.speakers .card__sidebar .speaker__img img {
     }
     .speaker-card .speaker-card__info p {
         font-size: 13px !important;
-        color: #8193B2
+        color: #8193B2;
+        margin-top: 7px
     }
 }
 
@@ -397,3 +398,10 @@ body.speakers .card__sidebar .speaker__img img {
     }
 }
 
+footer hr {
+    height: 1px;
+    border: 0px;
+    background: #d8d8d8;
+    width: 100%;
+    margin-bottom: 25px
+}
