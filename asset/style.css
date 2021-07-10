@@ -109,7 +109,7 @@ a.underline {
 } */
 
 .button {
-    font-family: "alliance", mono, sans-serif;
+    /*font-family: "alliance", mono, sans-serif;*/
     position: relative;
     z-index: 1;
     display: inline-flex;
@@ -117,7 +117,7 @@ a.underline {
     justify-content: center;
     text-transform: none;
     font-size: 14px;
-    font-weight: 600;
+    /*font-weight: 600;*/
     text-transform: uppercase;
     letter-spacing: 0.07em;
     padding: 4px 26px;
@@ -153,7 +153,9 @@ a.underline {
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(92.05deg, #B392F0 10.42%, #EC6CB9 47.91%, #F97583 100%);
+
+    background: linear-gradient(267.91deg, #FFE57F 9.35%, #FF7170 96.48%);
+    /*background: linear-gradient(92.05deg, #B392F0 10.42%, #EC6CB9 47.91%, #F97583 100%);*/
     -webkit-backface-visibility: hidden;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
@@ -208,7 +210,8 @@ a.underline {
 }
 
 .button:hover {
-    cursor: pointer
+    cursor: pointer;
+    color: black;
 }
 
 .button:hover:before {
