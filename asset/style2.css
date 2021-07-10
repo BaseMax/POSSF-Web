@@ -412,3 +412,9 @@ img {
     border: 0px;
 }
 
+
+@media (max-width: 600px) {
+    header .time {
+        display: none;
+    }
+}
