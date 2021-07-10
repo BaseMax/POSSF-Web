@@ -420,6 +420,14 @@ h1.page-box-content-title {
     font-size: 45px;
 }
 
+h2.page-box-content-title {
+    font-size: 37px;
+}
+
+h3.page-box-content-title {
+    font-size: 30px;
+}
+
 @media (max-width: 600px) {
     header .time {
         display: none;
