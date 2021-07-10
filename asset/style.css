@@ -485,7 +485,7 @@ section.content {
     width: 100%;
     min-height: 88vh;
     background-image: url('../asset/pattern-light.svg');
-    background-color: #040303;
+    /*background-color: #040303;*/
     background-position: center;
     background-attachment: cover;
     background-repeat: no-repeat;
@@ -912,3 +912,13 @@ section.profile .social svg {
     }
 }
 
+.page-box-with-heaer-bg {
+    margin-top: -250px !important;
+}
+
+.main-first-section {
+    text-align: center !important;
+}
+.main-first-section p {
+    max-width: 100% !important;
+}
