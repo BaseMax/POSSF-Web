@@ -1,4 +1,4 @@
-/* .attends-box {
+ .attends-box {
     width: 100%;
     min-height: auto;
     display: grid;
@@ -444,7 +444,9 @@ h3.page-box-content-title {
     /*display: inline-grid;*/
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 200px);
+    /*grid-template-rows: repeat(5, 200px);*/
+    text-align: center;
+    align-items: center;
 }
 
 .team-grid .team-item {
@@ -453,7 +455,7 @@ h3.page-box-content-title {
     align-items: center;
     justify-content: center;
     /*width: 80%;*/
-    height: 190px;
+    height: 220px;
     /*margin: auto;*/
 }
 
@@ -463,9 +465,9 @@ h3.page-box-content-title {
 }
 .team-item .team-img {
     text-align: center;
-    width: 100%;
     /*width: 80%;*/
-    /*max-width: 50%;*/
+    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 50%;
 }
@@ -483,4 +485,18 @@ h3.page-box-content-title {
     text-align: center;
     float: right;
     width: 100%;
+}
+
+.team-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team-center .team-img-box {
+    width: 25%;
+}
+
+.team-grid-next {
+    margin-top: 200px;
 }

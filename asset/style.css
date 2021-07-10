@@ -564,7 +564,7 @@ section.content p {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 200px);
+    /*grid-template-rows: repeat(5, 200px);*/
     direction: ltr;
 }
 
@@ -824,7 +824,7 @@ section.profile .social svg {
     }
     .sponsor-box {
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(auto, 200px);
+        /*grid-template-rows: repeat(auto, 200px);*/
     }
     section.speakers h1 {
         font-size: 60px;
@@ -834,7 +834,7 @@ section.profile .social svg {
 @media screen and (max-width:992px) {
     .sponsor-box {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(auto, 1fr);
+        /*grid-template-rows: repeat(auto, 1fr);*/
     }
     nav {
         display: none;
@@ -864,7 +864,7 @@ section.profile .social svg {
 @media screen and (max-width:768px) {
     .sponsor-box {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(auto, 1fr);
+        /*grid-template-rows: repeat(auto, 1fr);*/
     }
     section.content h1 {
         font-size: 40px;
@@ -891,7 +891,7 @@ section.profile .social svg {
 @media screen and (max-width:350px) {
     .sponsor-box {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(auto, 1fr);
+        /*grid-template-rows: repeat(auto, 1fr);*/
     }
     section.content h1 {
         font-size: 40px;
@@ -922,3 +922,4 @@ section.profile .social svg {
 .main-first-section p {
     max-width: 100% !important;
 }
+
