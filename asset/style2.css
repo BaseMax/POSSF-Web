@@ -162,7 +162,8 @@ body.speakers .card__sidebar .speaker__img img {
     }
     .speaker-card .speaker-card__info {
         order: 2;
-        padding-left: 12px
+        padding-left: 12px;
+        padding-right: 12px
     }
     .speaker-card .speaker-card__info * {
         line-height: 1
@@ -313,7 +314,8 @@ body.speakers .card__sidebar .speaker__img img {
         position: relative;
         width: 1800px;
         max-width: 92%;
-        margin: 0 auto
+        margin: 0 auto;
+        margin-bottom: 20px
     }
 }
 
@@ -394,3 +396,4 @@ body.speakers .card__sidebar .speaker__img img {
         padding: 20px;
     }
 }
+
