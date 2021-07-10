@@ -823,7 +823,7 @@ section.profile .social svg {
         padding: 5px 15px;
     }
     .sponsor-box {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(auto, 200px);
     }
     section.speakers h1 {
@@ -833,7 +833,7 @@ section.profile .social svg {
 
 @media screen and (max-width:992px) {
     .sponsor-box {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(auto, 1fr);
     }
     nav {
@@ -863,6 +863,33 @@ section.profile .social svg {
 
 @media screen and (max-width:768px) {
     .sponsor-box {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+    }
+    section.content h1 {
+        font-size: 40px;
+    }
+    section.content p {
+        font-size: 20px;
+        padding: 5px 20px;
+    }
+    section.speakers h1,
+    section.attends h2 {
+        font-size: 30px;
+    }
+    .attends-box {
+        grid-template-columns: 1fr;
+    }
+    .grid-attends {
+        width: 60%;
+    }
+}
+
+
+
+
+@media screen and (max-width:350px) {
+    .sponsor-box {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(auto, 1fr);
     }
@@ -884,3 +911,4 @@ section.profile .social svg {
         width: 60%;
     }
 }
+
