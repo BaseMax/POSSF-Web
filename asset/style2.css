@@ -447,24 +447,40 @@ h3.page-box-content-title {
     grid-template-rows: repeat(5, 200px);
 }
 
-.team-grid img {
+.team-grid .team-item {
+    /*display: flex;*/
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*width: 80%;*/
+    height: 190px;
+    /*margin: auto;*/
+}
+
+.team-item .team-img-box {
+    width: 50%;
+    margin: auto;
+}
+.team-item .team-img {
+    text-align: center;
+    width: 100%;
+    /*width: 80%;*/
+    /*max-width: 50%;*/
+    height: auto;
     border-radius: 50%;
 }
 
-.team-grid .team-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 190px;
-    margin: auto;
-}
-
-.team-name {
+.team-item .team-name {
     font-size: 18px;
     font-weight: bold;
 }
 
-.team-role {
+.team-item .team-role {
     font-size: 13px;
+}
+
+.team-item .team-info {
+    text-align: center;
+    float: right;
+    width: 100%;
 }
