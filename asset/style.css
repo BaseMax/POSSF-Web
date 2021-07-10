@@ -924,3 +924,14 @@ section.profile .social svg {
     max-width: 100% !important;
 }
 
+.faq-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.faq-item {
+    
+}
