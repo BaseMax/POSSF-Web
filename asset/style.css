@@ -940,6 +940,8 @@ section.profile .social svg {
 
 .faq-item .faq-content {
 	display: none;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .faq-item.active .faq-content {
