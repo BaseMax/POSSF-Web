@@ -566,7 +566,8 @@ section.content p {
 	padding: 35px;
 	margin: auto;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	/*grid-template-columns: repeat(4, 1fr);*/
+	grid-template-columns: repeat(5, 1fr);
 	/*grid-template-rows: repeat(5, 200px);*/
 	direction: ltr;
 }
@@ -830,7 +831,7 @@ section.profile .social svg {
 		padding: 5px 15px;
 	}
 	.sponsor-box {
-		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 		/*grid-template-rows: repeat(auto, 200px);*/
 	}
 	section.speakers h1 {
