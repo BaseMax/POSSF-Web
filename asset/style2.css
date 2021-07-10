@@ -476,6 +476,26 @@ h3.page-box-content-title {
 	/*grid-template-rows: repeat(5, 200px);*/
 	text-align: center;
 	align-items: center;
+	width: 60%;
+	margin: auto;
+}
+
+@media (max-width: 900px) {
+	.team-grid {
+		width: 70%;
+	}
+}
+
+@media (max-width: 700px) {
+	.team-grid {
+		width: 80%;
+	}
+}
+
+@media (max-width: 550px) {
+	.team-grid {
+		width: 90%;
+	}
 }
 
 @media (max-width: 700px) {
