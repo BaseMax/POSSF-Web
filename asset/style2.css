@@ -472,17 +472,18 @@ h3.page-box-content-title {
 .team-grid {
 	/*display: inline-grid;*/
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	/*grid-template-columns: repeat(4, 1fr);*/
+	grid-template-columns: repeat(5, 1fr);
 	/*grid-template-rows: repeat(5, 200px);*/
 	text-align: center;
 	align-items: center;
-	width: 60%;
+	width: 65%;
 	margin: auto;
 }
 
 @media (max-width: 900px) {
 	.team-grid {
-		width: 70%;
+		width: 75%;
 	}
 }
 
@@ -495,6 +496,12 @@ h3.page-box-content-title {
 @media (max-width: 550px) {
 	.team-grid {
 		width: 90%;
+	}
+}
+
+@media (max-width: 999px) {
+	.team-grid {
+		grid-template-columns: repeat(4, 1fr);
 	}
 }
 
