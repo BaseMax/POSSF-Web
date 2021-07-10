@@ -36,10 +36,6 @@
     }
 }
 
-.main-box {
-    width: 100%;
-    min-height: 500px;
-}
 
 .top-content {
     width: 100%;
@@ -47,7 +43,6 @@
 }
 
 .top-content-txt {
-    margin: auto 20px;
     padding-bottom: 20px;
 }
 
@@ -413,7 +408,7 @@ img {
 }
 
 .page-box-content {
-    width: 80%;
+    width: 94%;
     margin: auto;
 }
 
