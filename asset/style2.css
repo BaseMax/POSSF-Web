@@ -574,6 +574,7 @@ header nav.active {
 	position: absolute;
 	padding: 0 !important;
 	margin-top: 399px;
+	border-bottom: 1px solid #333131;
 }
 
 header nav.active li {
@@ -581,4 +582,7 @@ header nav.active li {
 	float: right;
 	text-align: right;
 	line-height: 14px;
+	color: #e6e6e5;
+	margin-right: 15px;
+	margin-left: 15px;
 }
