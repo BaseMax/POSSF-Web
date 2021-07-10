@@ -439,3 +439,32 @@ h3.page-box-content-title {
         width: 90%;
     }
 }
+
+.team-grid {
+    /*display: inline-grid;*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 200px);
+}
+
+.team-grid img {
+    border-radius: 50%;
+}
+
+.team-grid .team-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 190px;
+    margin: auto;
+}
+
+.team-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team-role {
+    font-size: 13px;
+}
