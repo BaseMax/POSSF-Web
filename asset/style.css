@@ -510,7 +510,7 @@ section.content p {
     margin: 0px auto 15px;
     color: #B5BFD2;
     font-size: 22px;
-    max-width: 1000px;
+    max-width: 70% !important;
 }
 
 .w-full {
