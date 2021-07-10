@@ -913,7 +913,8 @@ section.profile .social svg {
 }
 
 .page-box-with-heaer-bg {
-    margin-top: -250px !important;
+    /*margin-top: -250px !important;*/
+    margin-top: 150px !important;
 }
 
 .main-first-section {

@@ -428,7 +428,7 @@ h3.page-box-content-title {
 	font-size: 30px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
 	h1.page-box-content-title {
 		font-size: 35px;
 	}
@@ -439,6 +439,21 @@ h3.page-box-content-title {
 
 	h3.page-box-content-title {
 		font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width:500px) {
+	h1.page-box-content-title {
+		font-size: 29px;
+	}
+
+	h2.page-box-content-title {
+		font-size: 24px;
+	}
+
+	h3.page-box-content-title {
+		font-size: 16px;
 	}
 }
 
@@ -547,4 +562,23 @@ h3.page-box-content-title {
 
 .team-grid-next {
 	margin-top: 200px;
+}
+
+
+header nav.active {
+	display: block !important;
+	width: 100%;
+	background: black;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	position: absolute;
+	padding: 0 !important;
+	margin-top: 399px;
+}
+
+header nav.active li {
+	width: 100%;
+	float: right;
+	text-align: right;
+	line-height: 14px;
 }
