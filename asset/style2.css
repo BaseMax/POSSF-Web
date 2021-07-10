@@ -343,6 +343,7 @@ body.speakers .card__sidebar .speaker__img img {
 .img-of-speaker img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 .social-nav ul {
@@ -405,3 +406,9 @@ footer hr {
     width: 100%;
     margin-bottom: 25px
 }
+
+img {
+    max-width: 100%;
+    border: 0px;
+}
+
